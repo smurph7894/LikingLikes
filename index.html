@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topBar">
+        <div class="h1">
+            <h1>Network</h1>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="yourFeed">
+            <h2>Your Feed</h2>
+        </div>
+        <div class="main">
+            <div class="leftColumn">
+                <div class="leftProfile">
+                    <i class="profileIcon material-icons">person_outline</i>
+                    <a href="#"> Add an avatar</a>
+                    <p class="profileName">James Doe</p>
+                </div>    
+            </div>
+            <div class="likesColumn">
+                <div class="likesBox">
+                        <div class="topSection">
+                            <div class="leftSide">
+                                    <h3>Some User</h3>  
+                            </div>
+                            <div class="rightSide">
+                                <div class="likesCount">
+                                    <p id="numLikes1">9 </p>
+                                    <span>like(s)</span>
+                                </div>    
+                                <button class="likesButton" onclick="likeClicked(0, 'numLikes1')">Like</button>
+                            </div>
+                        </div>
+                        <div class="lowerSection">
+                            <span class="info"> 
+                                I just set up this new discord bot, let me know what you all think.
+                                <a href="#">link</a> 
+                            </span>
+                        </div>
+                </div>
+                <div class="likesBox">
+                    <div class="topSection">
+                        <div class="leftSide">
+                                <h3>Some User</h3>  
+                        </div>
+                        <div class="rightSide">
+                            <div class="likesCount">
+                                <p id="numLikes2">12 </p>
+                                <span>like(s)</span>
+                            </div>    
+                            <button class="likesButton" onclick="likeClicked(1,'numLikes2')">Like</button>
+                        </div>
+                    </div>
+                    <div class="lowerSection">
+                        <span class="info"> 
+                            Just finished my 
+                            <a href="#">next comic</a>, check it out.</p>
+                        </span>
+                    </div>
+            </div>
+            <div class="likesBox">
+                <div class="topSection">
+                    <div class="leftSide">
+                            <h3>Some User</h3>  
+                    </div>
+                    <div class="rightSide">
+                        <div class="likesCount">
+                            <p id="numLikes3">9 </p>
+                            <span>like(s)</span>
+                        </div>    
+                        <button class="likesButton" onclick="likeClicked(2, 'numLikes3')">Like</button>
+                    </div>
+                </div>
+                <div class="lowerSection">
+                    <span class="info"> 
+                        <p>I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+                    </span>
+                </div>
+        </div>
+            </div>    
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
